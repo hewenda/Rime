@@ -7,12 +7,12 @@ ascii_composer:
     Eisu_toggle: clear
     Shift_L: commit_code
     Shift_R: commit_code
-config_version: 0.36.custom.452891595
-customization: 452891595
+config_version: 0.36.custom.691352737
+customization: 691352737
 key_binder:
   bindings:
-    - {accept: bracketleft, send: Page_Up, when: has_menu}
-    - {accept: bracketright, send: Page_Down, when: has_menu}
+    - {accept: comma, send: Page_Up, when: has_menu}
+    - {accept: period, send: Page_Down, when: has_menu}
     - {accept: semicolon, send: 2, when: has_menu}
 menu:
   page_size: 5

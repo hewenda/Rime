@@ -82,8 +82,8 @@ patch:
       # 快捷键，更多参见 ori_default.yaml
       #
       # - { when: always, accept: Shift+space, toggle: full_shape } # Shift+space 切换全角/半角
-      - { when: has_menu, accept: bracketleft, send: Page_Up }
-      - { when: has_menu, accept: bracketright, send: Page_Down }
+      - { when: has_menu, accept: comma, send: Page_Up }
+      - { when: has_menu, accept: period, send: Page_Down }
       - { when: has_menu, accept: semicolon, send: 2 }
       #
       # paging
