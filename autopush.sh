@@ -2,10 +2,7 @@
 rime_path='~/Library/Rime'
 DATE=$(date +%F)
 
-echo ${PATH}
-echo ${DATE}
-
-cd ${PATH}
+cd ${rime_path}
 git checkout master
 git add .
 git commit -m "auto push on "${DATE}
