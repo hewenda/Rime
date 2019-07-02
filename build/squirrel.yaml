@@ -1,10 +1,10 @@
 __build_info:
-  rime_version: 1.3.2
+  rime_version: 1.5.2
   timestamps:
-    squirrel: 1546355630
+    squirrel: 1560787244
     squirrel.custom: 1547516504
 chord_duration: 0.1
-config_version: 0.31
+config_version: 0.33
 preset_color_schemes:
   apathy:
     author: "LIANG Hai "
@@ -278,8 +278,10 @@ style:
   corner_radius: 10
   display_tray_icon: true
   font_face: "Hiragino Sans GB W3"
+  font_point: 21
   horizontal: true
   inline_preedit: false
+  label_font_point: 18
   line_spacing: 5
   spacing: 5
 us_keyboard_layout: true
